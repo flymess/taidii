@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+    <link href="https://cdn.bootcss.com/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="baoming-info">
+        <header>确认报名信息</header>
+        <p class="course-info">
+            <i></i> 课程详情:
+        </p>
+
+        <table class="table table-bordered table-hover course-table">
+            <thead style="background-color: #f9f9f9;">
+                <th>课程名称</th>
+                <th>班级</th>
+                <th>单价(元)</th>
+                <th>报名课时</th>
+                <th>折扣名称</th>
+                <th>折扣金额</th>
+                <th>小计</th>
+                <th>GST</th>
+                <th>应付金额</th>
+            </thead>
+            <tbody style="background-color:#fff;">
+                <tr>
+                    <td>舞蹈</td>
+                    <td>古筝班</td>
+                    <td class="price">200.00</td>
+                    <td class="num">10</td>
+                    <td width="180px" style="padding:0;">
+                        <select class="form-control course-info-select" name="" id="">
+                            <option value=""></option>
+                            <option value="200">五一假期减两百</option>
+                            <option value="100">五一假期减一百</option>
+                        </select>
+                    </td>
+                    <td class="discountPrice"></td>
+                    <td class="subtotal"></td>
+                    <td class="GST">50</td>
+                    <td class="amountPayable">1850</td>
+                </tr>
+                <tr>
+                    <td>舞蹈</td>
+                    <td>古筝班</td>
+                    <td class="price">200.00</td>
+                    <td class="num">10</td>
+                    <td width="180px" style="padding:0;">
+                        <select class="form-control course-info-select" name="" id="">
+                                <option value=""></option>
+                                <option value="200">五一假期减两百</option>
+                                <option value="100">五一假期减一百</option>
+                            </select>
+                    </td>
+                    <td class="discountPrice"></td>
+                    <td class="subtotal"></td>
+                    <td class="GST">50</td>
+                    <td class="amountPayable">1850</td>
+                </tr>
+                <tr>
+                    <td>舞蹈</td>
+                    <td>古筝班</td>
+                    <td class="price">200.00</td>
+                    <td class="num">10</td>
+                    <td width="180px" style="padding:0;">
+                        <select class="form-control course-info-select" name="" id="">
+                                    <option value=""></option>
+                                    <option value="200">五一假期减两百</option>
+                                    <option value="100">五一假期减一百</option>
+                                </select>
+                    </td>
+                    <td class="discountPrice"></td>
+                    <td class="subtotal"></td>
+                    <td class="GST">50</td>
+                    <td class="amountPayable">1850</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total">订单总金额: <span>￥3700</span></div>
+        <p class="course-info">
+            <i></i> 支付详情:
+        </p>
+        <p class="apply-p">
+            该学生有退费或者信贷券，你希望来抵消吗?
+            <label class="el-radio">
+                 <span class="el-radio__input">
+                     <span class="el-radio__inner"></span>
+                     <input type="radio" name="selected" class="el-radio__original" value="0">
+                 </span>
+                 <span class="el-radio__label">否</span>
+            </label>
+
+            <label class="el-radio">
+                    <span class="el-radio__input">
+                        <span class="el-radio__inner"></span>
+                        <input type="radio" name="selected" class="el-radio__original" value="1">
+                    </span>
+                    <span class="el-radio__label">是</span>
+            </label>
+        </p>
+
+        <table class="table table-bordered table-hover apply-table">
+            <thead style="background-color: #f9f9f9;">
+                <th>信贷编号</th>
+                <th>描述</th>
+                <th>信贷日期</th>
+                <th>可用金额</th>
+                <th>抵消金额</th>
+                <th>剩余金额</th>
+            </thead>
+            <tbody style="background-color:#fff;">
+                <tr>
+                    <td>CN00048</td>
+                    <td>保教费300</td>
+                    <td>2017/7/1</td>
+                    <td class="hasVal">300</td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                    <td class="total-number"></td>
+                </tr>
+                <tr>
+                    <td>CN00048</td>
+                    <td>保教费300</td>
+                    <td>2017/7/1</td>
+                    <td class="hasVal">300</td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                    <td class="total-number"></td>
+                </tr>
+                <tr>
+                    <td>CN00048</td>
+                    <td>保教费300</td>
+                    <td>2017/7/1</td>
+                    <td class="hasVal">300</td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                    <td class="total-number"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <p class="apply-method">
+                付款方式:
+            </p>
+            <div style="width:200px;display:inline-block">
+                <select multiple="multiple" class="form-control apply-info-select" name="" id="">
+                    <option value="1">支票</option>
+                    <option value="2">现金</option>
+                    <option value="3">电子转账</option>
+                    <option value="4">儿童培养账户</option>
+                    <option value="5">网络结付</option>
+                    <option value="6">银行转账</option>
+                    <option value="7">凭券</option>
+                    <option value="8">补贴</option>
+                    <option value="9">其他</option>
+                </select>
+            </div>
+        </div>
+
+
+        <table class="table table-bordered table-hover apply-info-table">
+            <thead style="background-color: #f9f9f9;">
+                <th>付款方式</th>
+                <th>参考/支票号码</th>
+                <th>收到金额</th>
+            </thead>
+            <tbody style="background-color:#fff;">
+                <tr>
+                    <td>支票</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total">
+            共收到金额: <span>￥3700</span>
+        </div>
+
+        <div class="bottom-button">
+            <button class="btn btn-default">取消</button>
+            <button class="btn btn-success">上一步</button>
+            <button class="btn btn-success">完成</button>
+        </div>
+    </div>
+
+
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/select2/4.0.3/js/select2.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

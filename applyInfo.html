@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="baoming-info">
+        <header>确认付款信息</header>
+        <p class="course-info">
+            <i></i> 代办品详情:
+        </p>
+
+        <table class="table table-bordered table-hover">
+            <thead style="background-color: #f9f9f9;">
+                <th>条形码</th>
+                <th>类型</th>
+                <th>品名</th>
+                <th>单价(元)</th>
+                <th>数量</th>
+                <th>折扣名称</th>
+                <th>折扣金额</th>
+                <th>小计</th>
+                <th>GST</th>
+                <th>应付金额</th>
+            </thead>
+            <tbody style="background-color:#fff;">
+                <tr>
+                    <td>舞蹈</td>
+                    <td>书本</td>
+                    <td>灰姑娘</td>
+                    <td>200</td>
+                    <td>10</td>
+                    <td width="180px" style="padding:0;">
+                        <select class="form-control" name="" id="">
+                            <option value="">五一假期减两百</option>
+                        </select>
+                    </td>
+                    <td>200</td>
+                    <td>1800</td>
+                    <td>50</td>
+                    <td>1850</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total">订单总金额: <span>￥3700</span></div>
+        <p class="course-info">
+            <i></i> 支付详情:
+        </p>
+        <p class="apply-p">
+            该学生有退费或者信贷券，你希望来抵消吗?
+            <label class="el-radio">
+                 <span class="el-radio__input">
+                     <span class="el-radio__inner"></span>
+                     <input type="radio" name="selected" class="el-radio__original" value="0">
+                 </span>
+                 <span class="el-radio__label">否</span>
+            </label>
+
+            <label class="el-radio">
+                    <span class="el-radio__input">
+                        <span class="el-radio__inner"></span>
+                        <input type="radio" name="selected" class="el-radio__original" value="1">
+                    </span>
+                    <span class="el-radio__label">是</span>
+            </label>
+        </p>
+
+        <table class="table table-bordered table-hover">
+            <thead style="background-color: #f9f9f9;">
+                <th>信贷编号</th>
+                <th>描述</th>
+                <th>信贷日期</th>
+                <th>可用金额</th>
+                <th>抵消金额</th>
+                <th>剩余金额</th>
+            </thead>
+            <tbody style="background-color:#fff;">
+                <tr>
+                    <td>CN00048</td>
+                    <td>保教费300</td>
+                    <td>2017/7/1</td>
+                    <td>300</td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                    <td>100</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="apply-method">
+            付款方式:
+        </p>
+
+        <table class="table table-bordered table-hover">
+            <thead style="background-color: #f9f9f9;">
+                <th>付款方式</th>
+                <th>参考/支票号码</th>
+                <th>收到金额</th>
+            </thead>
+            <tbody style="background-color:#fff;">
+                <tr>
+                    <td>支票</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total">
+            订单总金额: <span>￥3700</span>
+        </div>
+
+        <div class="bottom-button">
+            <button class="btn btn-default">取消</button>
+            <button class="btn btn-success">上一步</button>
+            <button class="btn btn-success">完成</button>
+        </div>
+    </div>
+
+
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+.baoming-info{
+    width: 1413px;
+    margin: 0 auto;
+}
+
+.baoming-info .table,
+.baoming-info th {
+    text-align: center;
+}
+
+.baoming-info header{
+    text-align: center;
+    font-size: 20px;
+    color: #FCA856;
+    margin-top: 20px;
+}
+
+.baoming-info .course-info i{
+    background: #FD9934;
+    width: 3px;
+    height: 12px;
+    margin-top: -2px;
+    display: inline-block;
+}
+
+.el-radio {
+    color: #1f2d3d;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.el-radio__label {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.el-radio__input {
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    vertical-align: middle;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+    border-color: #20a0ff;
+    background: #20a0ff;
+}
+
+.el-radio__inner {
+    border: 1px solid #bfcbd9;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.el-radio__original {
+    opacity: 0;
+    outline: none;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.el-radio__label {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.el-radio__inner:after {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform .15s cubic-bezier(.71,-.46,.88,.6);
+}
+
+.el-radio__input.is-checked .el-radio__inner:after {
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.baoming-info .el-radio:first-child{
+    margin-right: 10px;
+}
+
+.baoming-info .table-bordered>thead>tr>th,
+.baoming-info .table-bordered>tbody>tr>th,
+.baoming-info .table-bordered>tfoot>tr>th,
+.baoming-info .table-bordered>thead>tr>td,
+.baoming-info .table-bordered>tbody>tr>td,
+.baoming-info .table-bordered>tfoot>tr>td{
+    border: 0px;
+}
+
+.apply-method{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.total{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right
+}
+
+.total span{
+    color: #FDAB57;
+}
+
+.baoming-info .btn {
+    width: 88px;
+}
+
+.baoming-info .btn-default{
+    background: #B3B3B3;
+    color: #fff;
+}
+
+.baoming-info .btn-success{
+    background: #8DC74F;
+    color: #fff;
+}
+
+.bottom-button{
+    text-align:right;
+    margin-top:20px;
+}
+
+.bottom-button button:nth-child(1){
+    margin-right: 30px;
+}
+
+.bottom-button button:nth-child(2){
+    margin-right: 30px;
+}
